@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <div>
       <PlayersCard />
-      <div className='border-b border-primary-200 my-10'></div>
+        <div className='border-b border-primary-200 my-10'></div>
       <LeagesList/>
     </div>
   )

@@ -5,8 +5,8 @@ import Button from '../Components/Button'
 const Login = () => {
   return (
     <div className='text-center w-72 mx-auto'>
-    <div className='mb-6 text-3xl font-semibold text-primary-900 text-left'>
-        Přihlásit se
+        <div className='mb-6 text-3xl font-semibold text-primary-900 text-left'>
+            Přihlásit se
         </div>
         <div className="flex flex-col gap-3">
           <InputField
@@ -21,7 +21,7 @@ const Login = () => {
           />
         </div>
         <div className="mt-6 mx-auto">
-          <Button text="Přihlásit se" isFull={true}/>
+          <Button text='Přihlásit se' size='big' bgColor='primary' textColor='white'/>
         </div>
     </div>
   )

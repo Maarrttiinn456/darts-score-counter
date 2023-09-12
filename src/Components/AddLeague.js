@@ -1,4 +1,4 @@
-import React from 'react'
+import { ArrowSmallRightIcon } from '@heroicons/react/24/solid'
 
 //components
 import Button from '../Components/Button'
@@ -7,8 +7,13 @@ import InputField from './InputField'
 const AddLeague = () => {
     return (
         <>
-            <div className='flex justify-center'>
-                <Button isOutline={true} text="Založit ligu"/>
+            <div className='flex flex-col items-center'>
+                <div>
+                    <Button text='Založit ligu' outline='true'/>
+                </div>
+                <div className='hidden'>
+                    <Button text='Přidat' bgColor='primary' textColor='white'/>
+                </div>
             </div>
 
             <div className='mt-4 w-72 mx-auto'>
@@ -26,6 +31,9 @@ const AddLeague = () => {
                         Martin Schuster
                     </label>
                     </div>
+                </div>
+                <div className='mt-2 flex justify-center'>
+                    
                 </div>
             </div>
       </>
