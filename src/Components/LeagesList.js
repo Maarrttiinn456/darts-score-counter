@@ -1,14 +1,14 @@
-
+import {useState} from 'react'
 
 //components
 import AddLeague from './AddLeague'
 import League from './League'
 
-const LeagesList = () => {
+const LeagesList = ({leaguesData,leaguesCollection,usersData}) => {
   return (
     <div>
-        <AddLeague /> 
-        <League />
+        <AddLeague leaguesData={leaguesData} leaguesCollection={leaguesCollection} usersData={usersData}/> 
+        <League leaguesData={leaguesData} usersData={usersData}/>
     </div>
   )
 }

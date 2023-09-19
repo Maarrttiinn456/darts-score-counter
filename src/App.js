@@ -1,4 +1,6 @@
 
+
+
 //Pages
 import LoginPage from './Pages/Login'
 import Homepage from './Pages/Homepage'
@@ -10,7 +12,7 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <div className='min-h-screen'>
-      <div className="container py-10">
+      <div className="container py-6">
         <Routes>
           <Route path='/' element={<Homepage/>}></Route>
           <Route path='/league/:id' element={<LeagueDetail/>}></Route>

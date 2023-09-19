@@ -8,7 +8,7 @@ const Login = () => {
         <div className='mb-6 text-3xl font-semibold text-primary-900 text-left'>
             Přihlásit se
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-2">
           <InputField
             type="text"
             placeholder="E-mail"
