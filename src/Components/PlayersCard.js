@@ -78,7 +78,7 @@ const PlayersCard = () => {
             <Fade {...properties}>
                 {usersData.map((user) => {
                     return(
-                        <div key={user.id} className="bg-gradient-from-t bg-gradient-to-r from-primary-700 to-primary-900 text-white rounded-xl px-4 py-3">
+                        <div key={user.id} className="bg-gradient-to-r from-primary-600 to-primary-900 text-white rounded-xl px-4 py-3">
                             <div className='flex justify-between items-center pl-10'>
                                 <div className="text-2xl font-medium">{user.name} {user.surname}</div>
                                 <div onClick={() => deleteUser(user.id)}><XMarkIcon className='h-6 text-primary-300' /></div>
